@@ -20,14 +20,12 @@ This project implements the **Perceptron Learning Algorithm** and dynamically vi
    - Adds a bias term to each input.  
    - Initializes weights as ones.  
    - Iteratively updates weights:  
-     $$ w \leftarrow w + \eta (y - \hat{y})x $$
-     where $ \eta $ is the learning rate.  
+     $$w \leftarrow w + \eta (y - \hat{y})x$$
+     where $\eta$ is the learning rate.  
 
 3. **Decision Boundary**  
    - Computed from:  
-     $$
-     w_0 + w_1x + w_2y = 0 \quad \Rightarrow \quad y = -\frac{w_0 + w_1x}{w_2}
-     $$
+     $$w_0 + w_1x + w_2y = 0 \quad \Rightarrow \quad y = -\frac{w_0 + w_1x}{w_2}$$
    - The separating line is updated on the plot.  
 
 4. **Visualization**  
